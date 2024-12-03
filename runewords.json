@@ -1,0 +1,333 @@
+[
+  {
+    "name": "Flickering Flame",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Nef", "Pul", "Vex"],
+    "requiredLevel": 55,
+    "effects": {
+      "new": [
+        "Level [1-6] Resist Fire Aura when Equipped",
+        "+2 to Fire Skills",
+        "-[5-10]% to Enemy Fire Resistance",
+        "+30% Enhanced Defense",
+        "+30 Defense vs. Missile",
+        "+[65-75] to Mana",
+        "+4% to Maximum Fire Resist",
+        "Half Freeze Duration"
+      ]
+    }
+  },
+  {
+    "name": "Lore",
+    "sockets": 2,
+    "type": "Helms",
+    "runes": ["Ort", "Sol"],
+    "requiredLevel": 27,
+    "effects": {
+      "new": [
+        "+1 to All Skills",
+        "+10 to Energy",
+        "+2 to Mana after each Kill",
+        "Lightning Resist +30%"
+      ]
+    }
+  },
+  {
+    "name": "Stealth",
+    "sockets": 2,
+    "type": "Helms",
+    "runes": ["Tal", "Eth"],          
+    "requiredLevel": 17,
+    "effects": {
+      "new": [
+        "Faster Run/Walk +25%",
+        "Faster Cast Rate +25%",
+        "Faster Hit Recovery +25%",
+        "Dexterity +6",
+        "Regenerate Mana 15%",
+        "Maximum Stamina +15",
+        "Poison Resist +30%",
+        "Magic Damage Taken Reduced 3"
+      ]
+    }
+  },
+  {
+    "name": "Peace",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Shael", "Thul", "Amn"],  
+    "requiredLevel": 29,
+    "effects": {
+      "new": [
+        "Chance to Cast Valkyrie 2%",
+        "Chance to Cast Slow Missiles 4%",
+        "Amazon Skills +2",
+        "Faster Hit Recovery +20%",
+        "Critical Strike +2",
+        "Cold Resist +30%",
+        "Attacker Takes Damage 14"
+      ]
+    }
+  },
+  {
+    "name": "Myth",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Hel", "Amn", "Nef"], 
+    "requiredLevel": 25,
+    "effects": {
+      "new": [
+        "Chance to Cast Taunt 10%",
+        "Chance to Cast Howl 3%",
+        "Barbarian Skills +2",
+        "Defense vs Missile +30",
+        "Replenish Life +10",
+        "Attacker Takes Damage 14"
+      ]
+    }
+  },
+  {
+    "name": "Smoke",
+    "sockets": 2,
+    "type": "Helms",
+    "runes": ["Nef", "Lum"], 
+    "requiredLevel": 37,
+    "effects": {
+      "new": [
+        "Faster Hit Recovery +20%",
+        "Enhanced Defense +75%",
+        "Defense vs Missile +280",
+        "Energy +10",
+        "All Resistances +50%",
+        "Light Radius -1",
+        "Weaken Charges: Level 6 Weaken (18 Charges)"
+      ]
+    }
+  },
+  {
+    "name": "Hustle",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Shael", "Ko", "Eld"],
+    "requiredLevel": 39,
+    "effects": {
+      "new": [
+        "Burst of Speed: Level 6 Burst of Speed When Equipped",
+        "Increased Attack Speed +20%",
+        "Faster Hit Recovery +20%",
+        "Dexterity +10",
+        "Slower Stamina Drain 50%",
+        "All Resistances +10%",
+        "Half Freeze Duration"
+      ]
+    }
+  },
+  {
+    "name": "Flickering Flame",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Nef", "Pul", "Vex"],
+    "requiredLevel": 55,
+    "effects": {
+      "new": [
+        "Level [1-6] Resist Fire Aura when Equipped",
+        "+2 to Fire Skills",
+        "-[5-10]% to Enemy Fire Resistance",
+        "+30% Enhanced Defense",
+        "+30 Defense vs. Missile",
+        "+[65-75] to Mana",
+        "+4% to Maximum Fire Resist",
+        "Half Freeze Duration"
+      ]
+    }
+  },
+  {
+    "name": "Lore",
+    "sockets": 2,
+    "type": "Helms",
+    "runes": ["Ort", "Sol"],
+    "requiredLevel": 27,
+    "effects": {
+      "new": [
+        "+1 to All Skills",
+        "+10 to Energy",
+        "+2 to Mana after each Kill",
+        "Lightning Resist +30%"
+      ]
+    }
+  },
+  {
+    "name": "Insight",
+    "sockets": 4,
+    "type": "Polearms",
+    "runes": ["Ral", "Tir", "Tal", "Sol"],
+    "requiredLevel": 27,
+    "effects": {
+      "new": [
+        "Level [12-17] Meditation Aura when Equipped",
+        "+35% Faster Cast Rate",
+        "+200-260% Enhanced Damage",
+        "+9 to Minimum Damage",
+        "+180-250% Bonus to Attack Rating",
+        "Adds 5-30 Fire Damage",
+        "+75 Poison Damage over 5 Seconds",
+        "+1-6 to Critical Strike",
+        "+5 to All Attributes"
+      ]
+    }
+  },
+  {
+    "name": "Spirit",
+    "sockets": 4,
+    "type": "Shields",
+    "runes": ["Tal", "Thul", "Ort", "Amn"],
+    "requiredLevel": 25,
+    "effects": {
+      "new": [
+        "+2 to All Skills",
+        "+25-35% Faster Cast Rate",
+        "+55% Faster Hit Recovery",
+        "+250 Defense vs. Missile",
+        "+22 to Vitality",
+        "+89-112 to Mana",
+        "Cold Resist +35%",
+        "Lightning Resist +35%",
+        "Poison Resist +35%"
+      ]
+    }
+  },
+  {
+    "name": "Grief",
+    "sockets": 5,
+    "type": "Swords/Axes",
+    "runes": ["Eth", "Tir", "Lo", "Mal", "Ral"],
+    "requiredLevel": 59,
+    "effects": {
+      "new": [
+        "+340-400 Damage",
+        "Ignore Target's Defense",
+        "-25% Target Defense",
+        "+20% Deadly Strike",
+        "+15 Life after each Kill",
+        "+30% Faster Attack Speed",
+        "Adds 5-30 Fire Damage",
+        "Poison Resist +20%",
+        "Mana Steal 7%"
+      ]
+    }
+  },
+  {
+    "name": "Call to Arms",
+    "sockets": 5,
+    "type": "Weapons",
+    "runes": ["Amn", "Ral", "Mal", "Ist", "Ohm"],
+    "requiredLevel": 57,
+    "effects": {
+      "new": [
+        "+1 to All Skills",
+        "+40% Increased Attack Speed",
+        "+250-290% Enhanced Damage",
+        "+5 to Battle Orders",
+        "+5 to Battle Command",
+        "+5 to Battle Cry",
+        "Prevent Monster Heal",
+        "Replenish Life +12"
+      ]
+    }
+  },
+  {
+    "name": "Fortitude",
+    "sockets": 4,
+    "type": "Armor",
+    "runes": ["El", "Sol", "Dol", "Lo"],
+    "requiredLevel": 59,
+    "effects": {
+      "new": [
+        "+300% Enhanced Damage",
+        "+200% Enhanced Defense",
+        "+20 to Life",
+        "Resist All +25%",
+        "Chance to Cast Level 15 Chilling Armor when Struck",
+        "+5% to Maximum Lightning Resist",
+        "Damage Reduced by 7",
+        "+12% Faster Cast Rate"
+      ]
+    }
+  },
+  {
+    "name": "Harmony",
+    "sockets": 4,
+    "type": "Missile Weapons",
+    "runes": ["Tir", "Ith", "Sol", "Ko"],
+    "requiredLevel": 39,
+    "effects": {
+      "new": [
+        "+200-275% Enhanced Damage",
+        "Adds 55-160 Fire Damage",
+        "Adds 55-160 Lightning Damage",
+        "Adds 55-160 Cold Damage",
+        "+10 to Dexterity",
+        "+2 to Valkyrie",
+        "Regenerate Mana 20%",
+        "+2-6% Life Leech"
+      ]
+    }
+  },
+  {
+    "name": "Infinity",
+    "sockets": 4,
+    "type": "Polearms",
+    "runes": ["Ber", "Mal", "Ber", "Ist"],
+    "requiredLevel": 63,
+    "effects": {
+      "new": [
+        "Level 12 Conviction Aura when Equipped",
+        "+35% Faster Run/Walk",
+        "+255% Enhanced Damage",
+        "-45% to Enemy Lightning Resistance",
+        "Prevent Monster Heal",
+        "+50% Magic Find",
+        "Adds 5-30 Fire Damage",
+        "+25 Vitality"
+      ]
+    }
+  },
+  {
+    "name": "Obedience",
+    "sockets": 5,
+    "type": "Polearms",
+    "runes": ["Hel", "Ko", "Thul", "Eth", "Fal"],
+    "requiredLevel": 41,
+    "effects": {
+      "new": [
+        "+370% Enhanced Damage",
+        "40% Chance of Crushing Blow",
+        "+200 Defense",
+        "Fire Resist +30%",
+        "+40 All Resistances",
+        "Level 21 Enchant (30 Charges)",
+        "+10 to Strength"
+      ]
+    }
+  },
+  {
+    "name": "Phoenix",
+    "sockets": 4,
+    "type": "Weapons/Shields",
+    "runes": ["Vex", "Vex", "Lo", "Jah"],
+    "requiredLevel": 65,
+    "effects": {
+      "new": [
+        "Level 10-15 Redemption Aura when Equipped",
+        "+350% Enhanced Damage",
+        "-28% to Enemy Fire Resistance",
+        "Adds 50-250 Fire Damage",
+        "+5% to Maximum Fire Resist",
+        "+20 Energy",
+        "Cannot Be Frozen"
+      ]
+    }
+  }
+  
+]

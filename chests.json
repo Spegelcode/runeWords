@@ -1,0 +1,183 @@
+{
+  "items": [
+    {
+      "name": "Stealth",
+      "sockets": 2,
+      "rune": ["Tal", "Eth"],
+      "required_level": 17,
+      "before": {
+        "faster_run_walk": "+25%",
+        "faster_cast_rate": "+25%",
+        "faster_hit_recovery": "+25%",
+        "dexterity": "+6",
+        "regenerate_mana": "15%",
+        "maximum_stamina": "+15",
+        "poison_resist": "+30%",
+        "magic_damage_taken_reduced": "3"
+      }
+
+    },
+    {
+      "name": "Peace",
+      "sockets": 3,
+      "rune": ["Shael", "Thul", "Amn"],
+      "required_level": 29,
+      "before": {
+        "chance_cast_valkyrie": "2%",
+        "chance_cast_slow_missiles": "4%",
+        "amazon_skills": "+2",
+        "faster_hit_recovery": "+20%",
+        "critical_strike": "+2",
+        "cold_resist": "+30%",
+        "attacker_takes_damage": "14"
+      },
+      "after": {
+        "chance_cast_valkyrie": "1 additional",
+        "chance_cast_slow_missiles": "8%",
+        "amazon_skills": "+1",
+        "faster_hit_recovery": "+20%",
+        "critical_strike": "+2",
+        "cold_resist": "+30%",
+        "attacker_takes_damage": "14"
+      }
+    },
+    {
+      "name": "Myth",
+      "sockets": 3,
+      "rune": ["Hel", "Amn", "Nef"],
+      "required_level": 25,
+      "before": {
+        "chance_cast_taunt": "10%",
+        "chance_cast_howl": "3%",
+        "barbarian_skills": "+2",
+        "defense_missile": "+30",
+        "replenish_life": "+10",
+        "attacker_takes_damage": "14"
+      },
+      "after": {
+        "chance_cast_taunt": "5%",
+        "chance_cast_howl": "3%",
+        "barbarian_skills": "+[1-2]",
+        "defense_missile": "+30",
+        "replenish_life": "+10",
+        "mana_after_kill": "+[3-4]",
+        "attacker_takes_damage": "[2-297]"
+      }
+    },
+    {
+      "name": "Smoke",
+      "sockets": 2,
+      "rune": ["Nef", "Lum"],
+      "required_level": 37,
+      "before": {
+        "faster_hit_recovery": "+20%",
+        "enhanced_defense": "+75%",
+        "defense_missile": "+280",
+        "energy": "+10",
+        "all_resistances": "+50",
+        "light_radius": "-1",
+        "weaken_charges": "Level 6 Weaken (18 Charges)"
+      },
+      "after": {
+        "faster_hit_recovery": "+20%",
+        "enhanced_defense": "+75%",
+        "defense_missile": "+280",
+        "energy": "+10",
+        "all_resistances": "+[30-50]",
+        "light_radius": "-1",
+        "weaken_charges": "Level 6 Weaken (18 Charges)"
+      }
+    },
+    {
+      "name": "Hustle",
+      "sockets": 3,
+      "rune": ["Shael", "Ko", "Eld"],
+      "required_level": 39,
+      "new": true,
+      "attributes": {
+        "burst_of_speed": "Level 6 Burst of Speed When Equipped",
+        "increased_attack_speed": "+20%",
+        "faster_hit_recovery": "+20%",
+        "dexterity": "+10",
+        "slower_stamina_drain": "50%",
+        "all_resistances": "+10",
+        "half_freeze_duration": true
+      }
+      {
+        "name": "Stealth",
+        "sockets": 2,
+        "rune": ["Tal", "Eth"],
+        "required_level": 17,
+        "before": {
+          "faster_run_walk": "+25%",
+          "faster_cast_rate": "+25%",
+          "faster_hit_recovery": "+25%",
+          "dexterity": "+6",
+          "regenerate_mana": "15%",
+          "maximum_stamina": "+15",
+          "poison_resist": "+30%",
+          "magic_damage_taken_reduced": "3"
+        }
+      },
+      {
+        "name": "Peace",
+        "sockets": 3,
+        "rune": ["Shael", "Thul", "Amn"],
+        "required_level": 29,
+        "before": {
+          "chance_cast_valkyrie": "2%",
+          "chance_cast_slow_missiles": "4%",
+          "amazon_skills": "+2",
+          "faster_hit_recovery": "+20%",
+          "critical_strike": "+2",
+          "cold_resist": "+30%",
+          "attacker_takes_damage": "14"
+        }
+      },
+      {
+        "name": "Myth",
+        "sockets": 3,
+        "rune": ["Hel", "Amn", "Nef"],
+        "required_level": 25,
+        "before": {
+          "chance_cast_taunt": "10%",
+          "chance_cast_howl": "3%",
+          "barbarian_skills": "+2",
+          "defense_missile": "+30",
+          "replenish_life": "+10",
+          "attacker_takes_damage": "14"
+        }
+      },
+      {
+        "name": "Smoke",
+        "sockets": 2,
+        "rune": ["Nef", "Lum"],
+        "required_level": 37,
+        "before": {
+          "faster_hit_recovery": "+20%",
+          "enhanced_defense": "+75%",
+          "defense_missile": "+280",
+          "energy": "+10",
+          "all_resistances": "+50",
+          "light_radius": "-1",
+          "weaken_charges": "Level 6 Weaken (18 Charges)"
+        }
+      },
+      {
+        "name": "Hustle",
+        "sockets": 3,
+        "rune": ["Shael", "Ko", "Eld"],
+        "required_level": 39,
+        "new": true,
+        "attributes": {
+          "burst_of_speed": "Level 6 Burst of Speed When Equipped",
+          "increased_attack_speed": "+20%",
+          "faster_hit_recovery": "+20%",
+          "dexterity": "+10",
+          "slower_stamina_drain": "50%",
+          "all_resistances": "+10",
+          "half_freeze_duration": true
+        }
+    }
+  ]
+}

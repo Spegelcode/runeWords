@@ -1,0 +1,210 @@
+ {
+    "name": "Nadir",
+    "sockets": 2,
+    "type": "Helms",
+    "runes": ["Nef", "Tir"],
+    "requiredLevel": 13,
+    "effects": {
+      "before": [
+        "+50% Enhanced Defense",
+        "+10 Defense",
+        "+30 Defense vs. Missile",
+        "+5 Strength",
+        "+2 to Mana after each Kill",
+        "-33% Extra Gold from Monsters",
+        "-3 to Light Radius",
+        "Level 13 Cloak of Shadows (9 Charges)"
+      ],
+      "after": [
+        "+50% Enhanced Defense",
+        "+10 Defense",
+        "+30 Defense vs. Missile",
+        "+5 Strength",
+        "+[2-4] to Mana after each Kill",
+        "-33% Extra Gold from Monsters",
+        "-3 to Light Radius",
+        "Level 13 Cloak of Shadows (9 Charges)"
+      ]
+    }
+  },
+  {
+    "name": "Radiance",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Nef", "Sol", "Ith"],
+    "requiredLevel": 27,
+    "effects": {
+      "before": [
+        "+75% Enhanced Defense",
+        "+30 Defense vs. Missile",
+        "+10 to Vitality",
+        "+10 to Energy",
+        "+33 to Mana",
+        "Physical Damage Taken Reduced by 7",
+        "Magic Damage Taken Reduced by 3",
+        "15% Damage Taken Gained as Mana when Hit",
+        "+5 to Light Radius"
+      ],
+      "after": [
+        "+[20-40]% Enhanced Damage",
+        "+75% Enhanced Defense",
+        "+30 Defense vs. Missile",
+        "+10 to Vitality",
+        "+10 to Energy",
+        "+33 to Mana",
+        "Physical Damage Taken Reduced by 7",
+        "15% Damage Taken Gained as Mana when Hit",
+        "+5 to Light Radius"
+      ]
+    }
+  },
+  {
+    "name": "Lore",
+    "sockets": 2,
+    "type": "Helms",
+    "runes": ["Ort", "Sol"],
+    "requiredLevel": 27,
+    "effects": {
+      "before": [
+        "+1 to All Skills",
+        "+10 to Energy",
+        "Lightning Resist +30%",
+        "Physical Damage Taken Reduced by 7",
+        "+2 to Mana after each Kill",
+        "+2 to Light Radius"
+      ],
+      "after": [
+        "+1 to All Skills",
+        "+[5-10] to Energy",
+        "Lightning Resist +30%",
+        "Physical Damage Taken Reduced by 7",
+        "+[1-2] to Mana after each Kill",
+        "+2 to Light Radius"
+      ]
+    }
+  },
+  {
+    "name": "Wisdom",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Pul", "Ith", "Eld"],
+    "requiredLevel": 45,
+    "effects": {
+      "new": [
+        "+33% Chance to Pierce",
+        "[15-25]% Bonus to Attack Rating",
+        "[4-8]% Mana Stolen per Hit",
+        "+30% Enhanced Defense",
+        "+10 to Energy",
+        "15% Slower Stamina Drain",
+        "Cannot Be Frozen",
+        "+5 to Mana after each Kill",
+        "15% Damage Gained as Mana when Hit"
+      ]
+    }
+  },
+  {
+    "name": "Delirium",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Lem", "Ist", "Io"],
+    "requiredLevel": 51,
+    "effects": {
+      "before": [
+        "1% Chance to Cast Level 50 Delirium when Struck",
+        "11% Chance to Cast Level 18 Confuse on Striking",
+        "6% Chance to Cast Level 14 Mind Blast when Struck",
+        "14% Chance to Cast Level 13 Terror when Struck",
+        "+2 to All Skills",
+        "+261 Defense",
+        "+10 to Vitality",
+        "50% Extra Gold from Monsters",
+        "25% Better Chance of Getting Magic Items",
+        "Level 17 Attract (60 Charges)"
+      ],
+      "after": [
+        "11% Chance to Cast Level 18 Confuse on Striking",
+        "6% Chance to Cast Level 14 Mind Blast when Struck",
+        "14% Chance to Cast Level 13 Terror when Struck",
+        "+2 to All Skills",
+        "+261 Defense",
+        "+10 to Vitality",
+        "50% Extra Gold from Monsters",
+        "30% Better Chance of Getting Magic Items",
+        "Level 17 Attract (60 Charges)"
+      ]
+    }
+  },
+  {
+    "name": "Flickering Flame",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Nef", "Pul", "Vex"],
+    "requiredLevel": 55,
+    "effects": {
+      "new": [
+        "Level [1-6] Resist Fire Aura when Equipped",
+        "+2 to Fire Skills",
+        "-[5-10]% to Enemy Fire Resistance",
+        "+30% Enhanced Defense",
+        "+30 Defense vs. Missile",
+        "+[65-75] to Mana",
+        "+4% to Maximum Fire Resist",
+        "Half Freeze Duration"
+      ]
+    }
+  },
+  {
+    "name": "Dream",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Io", "Jah", "Pul"],
+    "requiredLevel": 65,
+    "effects": {
+      "before": [
+        "10% Chance to Cast Level 15 Confuse when Struck",
+        "Level 15 Holy Shock Aura when Equipped",
+        "+[20-30]% Faster Hit Recovery",
+        "+30% Enhanced Defense",
+        "+[150-220] Defense",
+        "+10 to Vitality",
+        "Increase Maximum Life 5%",
+        "+[0-61] to Mana (+0.625 per Character Level)",
+        "All Resistances +[5-20]",
+        "[12-25]% Better Chance of Getting Magic Items"
+      ],
+      "after": [
+        "10% Chance to Cast Level 15 Confuse when Struck",
+        "Level 13 Holy Shock Aura when Equipped",
+        "+[20-30]% Faster Hit Recovery",
+        "+30% Enhanced Defense",
+        "+[150-220] Defense",
+        "+10 to Vitality",
+        "Increase Maximum Life 5%",
+        "+[0-61] to Mana (+0.625 per Character Level)",
+        "All Resistances +[10-20]",
+        "[20-30]% Better Chance of Getting Magic Items"
+      ]
+    }
+  },
+  {
+    "name": "Ferocity",
+    "sockets": 3,
+    "type": "Helms",
+    "runes": ["Zod", "Cham", "Shael"],
+    "requiredLevel": 69,
+    "effects": {
+      "new": [
+        "12% Chance to Cast Level 10 Taunt on Striking",
+        "Indestructible",
+        "+20% Faster Hit Recovery",
+        "[10-12]% Life Stolen per Hit",
+        "+18 to Zeal",
+        "+[150-200]% Enhanced Defense",
+        "Magic Damage Taken Reduced by [6-12]",
+        "Cannot Be Frozen",
+        "Attacker Takes Damage of [200-250]"
+      ]
+    }
+  }
+] 

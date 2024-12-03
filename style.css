@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+
+
+
+}
+.background {
+  background-image: url('/diablo-2-iwg3mz07r2xiu9gd.jpg'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the whole div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  position: fixed; /* Keep the background fixed during scroll */
+  top: 0;
+  left: 0;
+  width: 100%; /* Span full width */
+  height: 100%; /* Span full height */
+  z-index: -1; /* Place it behind all other content */
+
+}
+h2 {
+  font-size: 100px;
+}
+.nav {
+  position: relative; /* Important for z-index to work */
+  z-index: 1; /* Above the background */
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+  align-items: center; /* Vertically align items */
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Optional: Add transparency */
+  color: white;
+}
+
+
+#runes-container {
+  display: flex;
+  flex-wrap: wrap;  /* Items wrap to the next line if necessary */
+  justify-content: space-between; /* Spread items across the container */
+  gap: 20px;  /* Add some space between items */
+}
+
+.rune, .low, .mid, .high {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;  /* Space out contents of each element */
+  align-items: center;
+  flex-grow: 1;
+  max-width: 150px;  /* Limit the width of each tier */
+  background-color: #f4f4f4;  /* Optional: background color for visual separation */
+  color: #ccc;
+}
+
+.low {
+  background-color: #0e014973;
+}
+
+.mid {
+  background-color: rgba(16, 22, 39, 0.459);
+}
+
+.high {
+  background-color: #28144271;
+}
+
+/* Add spacing and alignment for the checkboxes */
+#runes-container label {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#runewords-container {
+  margin-top: 20px;
+  display: flex; /* Ensures child elements are flex items */
+  flex-wrap: wrap; /* Allows wrapping if items exceed the container width */
+  gap: 10px; /* Adds spacing between runeword elements */
+}
+
+.runeword {
+  border: 1px solid #d31717;
+  padding: 10px;
+  margin: 10px 0;
+  background: #020202;
+  max-width: 300px;
+  color: #ccc;
+  display: flex; /* Enables flexbox for child alignment */
+  flex-direction: column; /* Stacks child elements vertically */
+  overflow: hidden; /* Ensures no content overflows the box */
+  box-sizing: border-box; /* Ensures padding is included in max-width */
+}
+
+
+.runewordsText {
+  color: #ccc;
+  font-size: 100px;
+}

@@ -1,0 +1,350 @@
+[
+  {
+    "id": 1,
+    "name": "El",
+    "level": 11,
+    "effects": [
+      "+50 to Attack Rating",
+      "+1 to Light Radius",
+      "+15 Defense"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 2,
+    "name": "Eld",
+    "level": 11,
+    "effects": [
+      "+75% Damage to Undead",
+      "+50 to Attack Rating against Undead",
+      "15% Slower Stamina Drain",
+      "7% Increased Chance of Blocking"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 3,
+    "name": "Tir",
+    "level": 13,
+    "effects": [
+      "+2 to Mana after each Kill"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 4,
+    "name": "Nef",
+    "level": 13,
+    "effects": [
+      "Knockback",
+      "+30 Defense vs. Missile"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 5,
+    "name": "Eth",
+    "level": 15,
+    "effects": [
+      "-25% Target Defense",
+      "Regenerate Mana 15%"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 6,
+    "name": "Ith",
+    "level": 15,
+    "effects": [
+      "+9 to Maximum Damage",
+      "15% Damage Taken Gained as Mana when Hit"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 7,
+    "name": "Tal",
+    "level": 17,
+    "effects": [
+      "+75 Poison Damage over 5 Seconds",
+      "Poison Resist +30%",
+      "Poison Resist +35%"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 8,
+    "name": "Ral",
+    "level": 19,
+    "effects": [
+      "Adds 5-30 Fire Damage",
+      "Fire Resist +30%",
+      "Fire Resist +35%"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 9,
+    "name": "Ort",
+    "level": 21,
+    "effects": [
+      "Adds 1-50 Lightning Damage",
+      "Lightning Resist +30%",
+      "Lightning Resist +35%"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 10,
+    "name": "Thul",
+    "level": 23,
+    "effects": [
+      "Adds 3-14 Cold Damage",
+      "Cold Resist +30%",
+      "Cold Resist +35%"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 11,
+    "name": "Amn",
+    "level": 25,
+    "effects": [
+      "7% Life Stolen per Hit",
+      "Attacker Takes Damage of 14"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 12,
+    "name": "Sol",
+    "level": 27,
+    "effects": [
+      "+9 to Minimum Damage",
+      "Physical Damage Taken Reduced by 7"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 13,
+    "name": "Shael",
+    "level": 29,
+    "effects": [
+      "+20% Increased Attack Speed",
+      "+20% Faster Hit Recovery",
+      "+20% Faster Block Rate"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 14,
+    "name": "Dol",
+    "level": 31,
+    "effects": [
+      "20% Enhanced Damage",
+      "Hit Causes Monster to Flee 25%",
+      "Replenish Life +10",
+      "Replenish Life +7"
+    ],
+    "rarity": "Low"
+  },
+  {
+    "id": 15,
+    "name": "Hel",
+    "level": null,
+    "effects": [
+      "Requirements -20%",
+      "Requirements -15%"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 16,
+    "name": "Io",
+    "level": 35,
+    "effects": [
+      "+10 to Vitality"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 17,
+    "name": "Lum",
+    "level": 37,
+    "effects": [
+      "+10 to Energy"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 18,
+    "name": "Ko",
+    "level": 39,
+    "effects": [
+      "+10 to Dexterity"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 19,
+    "name": "Fal",
+    "level": 41,
+    "effects": [
+      "+10 to Strength"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 20,
+    "name": "Lem",
+    "level": 43,
+    "effects": [
+      "75% Extra Gold From Monsters",
+      "50% Extra Gold From Monsters"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 21,
+    "name": "Pul",
+    "level": 45,
+    "effects": [
+      "+75% Damage to Demons",
+      "+100 to Attack Rating against Demons",
+      "+30% Enhanced Defense"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 22,
+    "name": "Um",
+    "level": 47,
+    "effects": [
+      "10% Chance of Open Wounds",
+      "+120 Open Wounds Damage per Second",
+      "25% Chance of Open Wounds",
+      "All Resistances +15",
+      "All Resistances +22"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 23,
+    "name": "Mal",
+    "level": 49,
+    "effects": [
+      "Prevent Monster Heal",
+      "Magic Damage Taken Reduced by 7"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 24,
+    "name": "Ist",
+    "level": 51,
+    "effects": [
+      "30% Better Chance of Getting Magic Items",
+      "25% Better Chance of Getting Magic Items"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 25,
+    "name": "Gul",
+    "level": 53,
+    "effects": [
+      "20% Bonus to Attack Rating",
+      "+4% to Maximum Poison Resist",
+      "+5% to Maximum Poison Resist"
+    ],
+    "rarity": "Mid"
+  },
+  {
+    "id": 26,
+    "name": "Vex",
+    "level": 55,
+    "effects": [
+      "7% Mana Stolen per Hit",
+      "+4% to Maximum Fire Resist",
+      "+5% to Maximum Fire Resist"
+    ],
+    "rarity": "High"
+  },
+  {
+    "id": 27,
+    "name": "Ohm",
+    "level": 57,
+    "effects": [
+      "+45% Enhanced Damage",
+      "+50% Enhanced Damage",
+      "+4% to Maximum Cold Resist",
+      "+5% to Maximum Cold Resist"
+    ],
+    "rarity": "High"
+  },
+  {
+    "id": 28,
+    "name": "Lo",
+    "level": 59,
+    "effects": [
+      "20% Deadly Strike",
+      "+4% to Maximum Lightning Resist",
+      "+5% to Maximum Lightning Resist"
+    ],
+    "rarity": "High"
+  },
+  {
+    "id": 29,
+    "name": "Sur",
+    "level": 61,
+    "effects": [
+      "+4 Life after each Kill",
+      "Hit Blinds Target",
+      "Increase Maximum Mana 5%",
+      "+50 to Mana"
+    ],
+    "rarity": "High"
+  },
+  {
+    "id": 30,
+    "name": "Ber",
+    "level": 63,
+    "effects": [
+      "20% Chance of Crushing Blow",
+      "Physical Damage Taken Reduced by 5%",
+      "Physical Damage Taken Reduced by 8%"
+    ],
+    "rarity": "High"
+  },
+  {
+    "id": 31,
+    "name": "Jah",
+    "level": 65,
+    "effects": [
+      "Ignore Target's Defense",
+      "Increase Maximum Life 5%",
+      "+75 to Life",
+      "+50 to Life"
+    ],
+    "rarity": "High"
+  },
+  {
+    "id": 32,
+    "name": "Cham",
+    "level": 67,
+    "effects": [
+      "Freezes Target +3",
+      "Cannot Be Frozen"
+    ],
+    "rarity": "High"
+  },
+  {
+    "id": 33,
+    "name": "Zod",
+    "level": 69,
+    "effects": [
+      "Indestructible"
+    ],
+    "rarity": "High"
+  }
+]

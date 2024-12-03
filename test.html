@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runes and Helm/Chest Items</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .item {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .runes {
+            margin-top: 10px;
+        }
+
+        .rune {
+            padding: 5px;
+            background-color: #f4f4f4;
+            margin: 5px 0;
+            border-radius: 3px;
+        }
+
+        .rune-name {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Runes and Helm/Chest Items</h1>
+
+    <div class="container" id="itemsContainer">
+        <!-- Items will be dynamically inserted here -->
+    </div>
+
+    <script>
+        // Sample data - in real implementation, replace this with the actual JSON data
+        const matchedItems = [
+            {
+                "name": "Stealth",
+                "requiredLevel": 17,
+                "matchedRunes": [
+                    {
+                        "name": "Tal",
+                        "required_level": 13,
+                        "sockets": 2
+                    },
+                    {
+                        "name": "Eth",
+                        "required_level": 15,
+                        "sockets": 2
+                    }
+                ]
+            },
+            {
+                "name": "Treachery",
+                "requiredLevel": 29,
+                "matchedRunes": [
+                    {
+                        "name": "Shael",
+                        "required_level": 22,
+                        "sockets": 2
+                    },
+                    {
+                        "name": "Thul",
+                        "required_level": 20,
+                        "sockets": 2
+                    }
+                ]
+            },
+            {
+                "name": "Enigma",
+                "requiredLevel": 60,
+                "matchedRunes": [
+                    {
+                        "name": "Ber",
+                        "required_level": 60,
+                        "sockets": 3
+                    },
+                    {
+                        "name": "Ist",
+                        "required_level": 63,
+                        "sockets": 3
+                    },
+                    {
+                        "name": "Mal",
+                        "required_level": 58,
+                        "sockets": 3
+                    }
+                ]
+            },
+            {
+                "name": "Fortitude",
+                "requiredLevel": 30,
+                "matchedRunes": [
+                    {
+                        "name": "El",
+                        "required_level": 12,
+                        "sockets": 2
+                    },
+                    {
+                        "name": "Sol",
+                        "required_level": 21,
+                        "sockets": 2
+                    },
+                    {
+                        "name": "Dol",
+                        "required_level": 24,
+                        "sockets": 2
+                    }
+                ]
+            }
+        ];
+
+        // Function to render the matched items and their runes
+        function renderItems(items) {
+            const container = document.getElementById('itemsContainer');
+            items.forEach(item => {
+                // Create a container for each item
+                const itemDiv = document.createElement('div');
+                itemDiv.classList.add('item');
+
+                // Item name and required level
+                const itemHeader = document.createElement('h3');
+                itemHeader.textContent = `${item.name} (Level ${item.requiredLevel})`;
+                itemDiv.appendChild(itemHeader);
+
+                // Create a list of runes for the item
+                const runesDiv = document.createElement('div');
+                runesDiv.classList.add('runes');
+                item.matchedRunes.forEach(rune => {
+                    const runeDiv = document.createElement('div');
+                    runeDiv.classList.add('rune');
+                    
+                    // Rune name and other details
+                    runeDiv.innerHTML = `
+                        <span class="rune-name">${rune.name}</span><br>
+                        Required Level: ${rune.required_level}<br>
+                        Sockets: ${rune.sockets}
+                    `;
+                    
+                    runesDiv.appendChild(runeDiv);
+                });
+
+                itemDiv.appendChild(runesDiv);
+                container.appendChild(itemDiv);
+            });
+        }
+
+        // Render the items with matched runes
+        renderItems(matchedItems);
+    </script>
+</body>
+</html>
